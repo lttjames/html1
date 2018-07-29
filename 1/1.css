@@ -1,0 +1,11 @@
+.class{text-align:center}
+span{color:yellow;}
+h1{
+	box-shadow: inset 2px 2px 5px rgba(0,0,0,0.5), inset -2px -2px 5px rgba(255,255,255,0.5); 
+    background:linear-gradient(to top,blue,white);
+    padding:3px;}
+body{
+	background-image:url('/C:/Users/Administrator/Desktop/1/ncepu.jpg');
+   background-position:center;
+   background-repeat:no-repeat;)
+   }
