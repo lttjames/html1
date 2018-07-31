@@ -1,0 +1,14 @@
+li{
+    display: inline-block;
+    margin-right: 1rem;
+    text-align: left;
+}
+strong{
+    font-size: 30px;
+}
+ul{
+    font-size: 20px;
+    padding-left: 0px;
+    margin-left: 0px;
+    font-weight: bold;
+}
