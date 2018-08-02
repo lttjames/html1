@@ -1,7 +1,7 @@
 h1{
     color: aliceblue;
     float: left;
-    background-color: rgb(0, 195, 255);
+    background-color: rgb(0, 132, 255);
     width: 20%;
     height: 100%;
     margin-top: 0%;
@@ -12,6 +12,7 @@ h1{
 div{
     float: left;
     padding-top: 30px;
+    margin-left: 20px;
 }
 body{
     width: 90%;
