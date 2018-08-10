@@ -1,0 +1,43 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>布局3</title>
+    <style>
+        /*
+        .inbl{
+            box-sizing: content-box;
+            font-size: 0px;
+        }
+        .inbl.left,
+        .inbl.right{
+            display: inline-block;
+            box-sizing: border-box;
+            vertical-align: top;
+            font-size: 14px;
+            border: 1px blue solid;
+        }
+        .inbl.left{
+            width: calc(100% - 140px);
+        }*/
+        .fbfc{
+            overflow: auto;
+        }
+        .fbfc.left{
+            overflow: auto;
+            border: 1px blue solid;
+        }
+        .fbfc.right{
+            float: right;
+            margin-left: 20px;
+            border: 1px blue solid;
+        }
+    </style>
+</head>
+<body>
+    <div class="fbfc">
+        <div class="fbfc left">box1</div>
+        <div class="fbfc right">box2</div>
+    </div>   
+</body>
+</html>

@@ -1,0 +1,58 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>布局2</title>
+    <style>
+        /*body{
+            margin: 0px;
+            height: 100%;
+        }
+        .left{
+            
+            width: 200px;
+            height: 100%;
+            float: left;
+            border: 1px red solid;
+        }
+        .right{
+            margin-left: 220px;
+            height: 100%;
+            border: 1px red solid;
+        }*/
+        /*
+        .inbl{
+            display: flex;
+            align-items: flex-start;
+        }
+        .inbl-left{
+            flex: 0 0 auto;
+            border: 1px blue solid;
+        }
+        .inbl-right{
+            flex: 1 1 auto;
+            border: 1px blue solid;
+        }
+        */
+        .float-bfc{
+            overflow: auto;
+        }
+        .float-bfc.left{
+            float: left;
+            margin-right: 20px;
+            border: 1px blue solid;
+        }
+        .float-bfc.right{
+            margin-left: 0px;
+            overflow: auto;
+            border: 1px blue solid;
+        }
+    </style>
+</head>
+<body>
+    <div class="float-bfc">
+        <div class="float-bfc left">box1</div>
+        <div class="float-bfc right">box2</div>
+    </div>
+</body>
+</html>
