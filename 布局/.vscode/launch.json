@@ -8,7 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Launch Chrome",
-            "url": "C:/Users/Administrator/Desktop/李腾/布局",
+            "url": "C:/Users/李腾/Desktop/李腾/布局",
             "webRoot": "${workspaceFolder}/布局"
         },
         {
