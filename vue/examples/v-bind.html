@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>v-bind 实例</title>
+    <script type="text/javascript" src="../assets/js/vue.js"></script>
+</head>
+<body>
+    <h1>v-bind 实例</h1>
+    <hr>
+    <div id="app">
+        <h3>绑定数组</h3>
+        <div v-bind:class="isOk?classA:classB">1、绑定三元表达式</div>
+        <input type="checkbox" id="isOk" v-model="isOk">
+        <label for="isOk">isOk={{isOk}}</label>
+        <hr>
+        <div :style="styleObject">2、绑定style</div>
+    </div>
+    <style>
+        .classA{
+            color: blue;
+        }
+        .classB{
+            font-size: 200%;
+        }
+    </style>
+
+    <script>
+        var app=new Vue(
+            {
+                el:'#app',
+                data:{
+                    isOk:true,
+                    classA:'classA',
+                    classB:'classB',
+                    styleObject:{
+                        fontSize:'22px'
+                    }
+                }
+            }
+        )
+    </script>
+</body>
+</html>
